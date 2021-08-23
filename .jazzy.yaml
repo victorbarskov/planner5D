@@ -1,0 +1,14 @@
+{
+    "output": "docs",
+    "objc": false,
+    "clean": true,
+    "use_safe_filenames": true,
+    "theme": "apple",
+    "exclude": "/*/Internal*",
+    "xcodebuild_arguments": [
+        "build",
+        "-project", "planned5D.xcodeproj",
+        "-scheme", "planned5D",
+        "-sdk", "iphonesimulator"
+    ]
+}
